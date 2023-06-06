@@ -1,0 +1,5 @@
+1. cd: entrar a una carpeta
+2. git add .: agrega los archivos modificados y creados
+3. ls -a: lista archivos, incluso los no visibles 
+4. git log: historial en cambio de los proyectos
+5. git clone: crea carpeta remota de los archivos extistentes
