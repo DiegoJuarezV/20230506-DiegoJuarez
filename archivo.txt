@@ -1,0 +1,50 @@
+  185  git config user.email
+  186  code .
+  187  touch comandos.txt main.js index.html
+  188  git add .
+  189  git commit -m "commit 01 de diegoJuarez"
+  190  git remote add origin https://github.com/DiegoJuarezV/20230506-DiegoJuarez.git
+  191  git remote -v 
+  192  git push origin main 
+  193  git branch feature01
+  194  git checkout feature01
+  195  mkdir Terminal Hardware
+  196  cd Hardware/
+  197  touch resumen.txt
+  198  cd ..
+  199  cd Terminal/
+  200  touch resumen.txt
+  201  cd ..
+  202  git checkout main
+  203  git status
+  204  git log --oneline
+  205  git checkout feature01 
+  206  git status
+  207  git add .
+  208  git commit -m "commit 02 de diegoJuarez"
+  209  git push origin feature01 
+  210  git branch feature02
+  211  cd Terminal/
+  212  cd ..
+  213  git add .
+  214  git status
+  215  git commit -m "commit 03 de diegoJuarez"
+  216  git push origin feature01
+  217  git checkout feature02
+  218  git checkout feature01
+  219  git add .
+  220  git commit -m "commit 02 de diegoJuarez"
+  221  git push origin feature01
+  222  git checkout feature02
+  223  git add .
+  224  git commit -m "commit 03 de diegoJuarez"
+  225  git push origin feature02 
+  226  git checkout main
+  227  mv comandos.txt comandosUtilizados.txt
+  228  history50> archivo.txt 
+  229  rm archivo.txt 
+  230  history50 > archivo.txt 
+  231  rm archivo.txt 
+  232  git history50 > archivo.txt
+  233  rm archivo.txt 
+  234  history 50 > archivo.txt 
